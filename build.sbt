@@ -4,4 +4,5 @@ version := "0.1"
 
 scalaVersion := "2.11.8"
 
-libraryDependencies += "com.amazonaws" % "aws-java-sdk-dynamodb" % "1.9.0"
+libraryDependencies += Seq("com.amazonaws" % "aws-java-sdk-dynamodb" % "1.9.0",
+  "org.scalatest" %% "scalatest" % "3.0.1")
